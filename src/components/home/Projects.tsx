@@ -1,20 +1,21 @@
-import React from 'react';
-
+import restroK from "../../images/restrokitchen.jpg"
+import hotelK from "../../images/hotelK.jpg"
+import mall from "../../images/mall.jpg"
 const projects = [
   {
     title: 'Luxury Hotel Kitchen',
     location: 'Grand Plaza Hotel',
-    image: 'https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    image: hotelK,
   },
   {
     title: 'Restaurant Chain Setup',
     location: 'FoodCourt Central',
-    image: 'https://images.unsplash.com/photo-1448831984154-8cfe5dfe8aa0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    image: restroK,
   },
   {
     title: 'Mall Food Court',
     location: 'City Center Mall',
-    image: 'https://images.unsplash.com/photo-1557555187-23d685287bc3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    image:mall,
   },
 ];
 

@@ -32,8 +32,8 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link to="/about" className="hover:text-blue-500 transition">About Us</Link></li>
-              <li><Link to="/services" className="hover:text-blue-500 transition">Services</Link></li>
-              <li><Link to="/portfolio" className="hover:text-blue-500 transition">Projects</Link></li>
+              {/* <li><Link to="/services" className="hover:text-blue-500 transition">Services</Link></li>
+              <li><Link to="/portfolio" className="hover:text-blue-500 transition">Projects</Link></li> */}
               <li><Link to="/contact" className="hover:text-blue-500 transition">Contact</Link></li>
             </ul>
           </div>
@@ -42,16 +42,16 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-white mb-4">Contact</h3>
             <ul className="space-y-4">
               <li className="flex items-center">
-                <MapPin size={20} className="mr-2 text-blue-500" />
-                123 Kitchen Street, Business District
+                <MapPin size={40} className="mr-2 text-blue-500" />
+                17, Moti Nagar, DLE industrial Area, Kirti Nagar, New Delhi, 110059
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 text-blue-500" />
-                +1 234 567 890
+                +91 9266665626
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-blue-500" />
-                info@comfortzone.com
+                Comfortzone5625@gmail.com
               </li>
             </ul>
           </div>

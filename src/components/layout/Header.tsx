@@ -69,8 +69,8 @@ const NavLinks = ({ mobile }: { mobile?: boolean }) => {
     <div className={baseClasses}>
       <Link to="/" className={getLinkClass('/')}>Home</Link>
       <Link to="/about" className={getLinkClass('/about')}>About Us</Link>
-      <Link to="/services" className={getLinkClass('/services')}>Services</Link>
-      <Link to="/portfolio" className={getLinkClass('/portfolio')}>Our Work</Link>
+      {/* <Link to="/services" className={getLinkClass('/services')}>Services</Link>
+      <Link to="/portfolio" className={getLinkClass('/portfolio')}>Our Work</Link> */}
       <Link to="/contact" className={getLinkClass('/contact')}>Contact</Link>
     </div>
   );

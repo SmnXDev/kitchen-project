@@ -21,7 +21,7 @@ const values = [
 
 const AboutPage = () => {
   return (
-    <div className="pt-20">
+    <div >
       <div className="container mx-auto px-6 py-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-8">About ComfortZone</h1>
         
@@ -36,10 +36,15 @@ const AboutPage = () => {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h2>
             <p className="text-gray-600 mb-6">
-              Founded in 2005, ComfortZone has grown from a small kitchen equipment supplier to a leading provider of commercial kitchen solutions. Our journey has been marked by continuous innovation, unwavering commitment to quality, and a deep understanding of our clients' needs.
+            At ComfortZone, we specialize in creating exceptional commercial kitchen solutions tailored to meet the unique needs of your business. From our humble beginnings as a small kitchen equipment supplier, we have grown into a trusted leader in the industry.
+
+Our journey has been defined by innovation, attention to detail, and an unwavering commitment to quality. We understand the importance of designing and fitting efficient, high-performance kitchens that elevate functionality and style.
             </p>
             <p className="text-gray-600">
-              Today, we serve clients across the nation, employing skilled professionals who share our vision of creating perfect commercial kitchen spaces while maintaining the highest standards of quality and reliability.
+
+            Today, we proudly serve clients nationwide, working with skilled professionals who share our passion for crafting seamless and reliable kitchen spaces. From concept to installation, ComfortZone is your trusted partner in delivering the ultimate commercial kitchen experience.
+
+Let’s build your perfect kitchen together.
             </p>
           </div>
         </div>
@@ -57,7 +62,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="mb-12">
+        {/* <div className="mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Leadership Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -88,7 +93,7 @@ const AboutPage = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

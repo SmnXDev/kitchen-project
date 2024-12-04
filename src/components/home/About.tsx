@@ -41,9 +41,7 @@ const About = () => {
               Why Choose ComfortZone?
             </h2>
             <p className="text-gray-600 mb-8">
-              Since 2005, ComfortZone has been at the forefront of commercial kitchen excellence. 
-              Our commitment to innovation, quality, and customer satisfaction has made us the 
-              preferred choice for businesses across the nation.
+            ComfortZone transforms commercial kitchen visions into reality. From tailored designs to flawless installations, we deliver efficient, high-quality solutions that businesses trust. Partner with us to create kitchens that blend functionality, style, and reliability seamlessly.
             </p>
             <div className="grid grid-cols-2 gap-6">
               {stats.map((stat, index) => (

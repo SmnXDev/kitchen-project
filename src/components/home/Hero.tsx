@@ -1,6 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChefHat, Award, Clock } from 'lucide-react';
+import kitchen from "../../images/kitchen.jpg"
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80")',
+          backgroundImage: `url(${kitchen})`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
@@ -27,9 +27,7 @@ const Hero = () => {
               <Link to="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition text-center">
                 Request Consultation
               </Link>
-              <Link to="/portfolio" className="border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-blue-900 transition text-center">
-                View Projects
-              </Link>
+             
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="flex items-center space-x-3 text-white">
